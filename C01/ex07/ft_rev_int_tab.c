@@ -6,11 +6,25 @@
 /*   By: lmelo-do <lmelo-do@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 11:32:44 by lmelo-do          #+#    #+#             */
-/*   Updated: 2025/04/21 14:44:16 by lmelo-do         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:21:33 by lmelo-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_rev_int_tab(int *tab, int size);
+void	ft_rev_int_tab(int *tab, int size)
+{
+	int	i;
+	int	temp;
+
+	i = 0;
+	while (i < size / 2)
+	{
+		temp = tab[i];
+		tab[i] = tab[size - 1 - i];
+		tab[size - 1 - i] = temp;
+		i++;
+	}
+}
+
 /*#include	<stdio.h>
 void	ft_rev_int_tab(int *tab, int size);
 int main(void)
@@ -38,18 +52,3 @@ int main(void)
 
 	return 0;
 }*/
-
-void	ft_rev_int_tab(int *tab, int size)
-{
-	int	i;
-	int	temp;
-
-	i = 0;
-	while (i < size / 2)
-	{
-		temp = tab[i];
-		tab[i] = tab[size - 1 - i];
-		tab[size - 1 - i] = temp;
-		i++;
-	}
-}
