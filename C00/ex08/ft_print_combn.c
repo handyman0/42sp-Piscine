@@ -6,7 +6,7 @@
 /*   By: lmelo-do <lmelo-do@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/13 16:25:28 by lmelo-do          #+#    #+#             */
-/*   Updated: 2025/05/13 16:33:01 by lmelo-do         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:06:19 by lmelo-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,8 +96,8 @@ void	ft_print_combn(int n)
 	ft_print_nbr(tab, n);
 }
 
-int main(void)
+/* int main(void)
 {
 	ft_print_combn(2);
 	return (0);
-}
+} */
