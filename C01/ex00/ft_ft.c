@@ -6,12 +6,16 @@
 /*   By: lmelo-do <lmelo-do@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/19 15:56:51 by lmelo-do          #+#    #+#             */
-/*   Updated: 2025/04/21 14:51:22 by lmelo-do         ###   ########.fr       */
+/*   Updated: 2025/05/13 16:58:13 by lmelo-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ft(int *nbr);
-/*
+void	ft_ft(int *nbr)
+{
+	*nbr = 42;
+}
+
+/* 
 #include <stdio.h>
 int main(void)
 {
@@ -19,9 +23,5 @@ int main(void)
 	ft_ft(&n);
 	printf("%d", n);
 	return 0;
-}*/
-
-void	ft_ft(int *nbr)
-{
-	*nbr = 42;
 }
+*/
