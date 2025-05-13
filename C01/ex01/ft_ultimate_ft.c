@@ -6,11 +6,14 @@
 /*   By: lmelo-do <lmelo-do@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/19 16:40:37 by lmelo-do          #+#    #+#             */
-/*   Updated: 2025/04/22 17:02:23 by lmelo-do         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:00:22 by lmelo-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ultimate_ft(int *********nbr);
+void	ft_ultimate_ft(int *********nbr)
+{
+	*********nbr = 42;
+}
 
 /*
 #include <stdio.h>
@@ -32,8 +35,3 @@ int	main(void)
 	return (0);
 }
 */
-
-void	ft_ultimate_ft(int *********nbr)
-{
-	*********nbr = 42;
-}
