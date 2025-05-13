@@ -6,11 +6,18 @@
 /*   By: lmelo-do <lmelo-do@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 08:12:44 by lmelo-do          #+#    #+#             */
-/*   Updated: 2025/04/21 14:51:37 by lmelo-do         ###   ########.fr       */
+/*   Updated: 2025/05/13 17:17:34 by lmelo-do         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_swap(int *a, int *b);
+void	ft_swap(int *a, int *b)
+{
+	int	temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
 
 /*
 #include <stdio.h>
@@ -24,12 +31,3 @@ int main(void){
 	printf("b = %d\n", b);
 }
 */
-
-void	ft_swap(int *a, int *b)
-{
-	int	x;
-
-	x = *a;
-	*a = *b;
-	*b = x;
-}
